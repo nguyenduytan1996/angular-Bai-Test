@@ -17,6 +17,10 @@ body {
   flex-direction: row;
 }
 
+router-outlet + *  {
+  padding: 0 16px;
+}
+
 /* Add application styles & imports to this file! */
 app-top-bar {
   width: 100%;
@@ -46,3 +50,4 @@ a:hover {
   opacity: 0.8;
 }
 
+/* */
